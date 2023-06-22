@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #666;
+    border-bottom: 2px solid #333;
+}
+
+nav .link button {
+    background: none;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.link {
+    margin-left: 5px;
+}
+
+nav .link button:active {
+    background-color: #555;
+}
+
+.navbar-action {
+    display: inline-block;
+    position: fixed;
+    background-color: #555;
+}
+
+.navbar-action button {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.navbar-action button:hover {
+    color: #9899;
+}
+
+#console-btn {
+    display: none;
+}
+
+#edit-btn {
+    display: none;
+}
+
+#file-btn {
+    display: none;
+}
